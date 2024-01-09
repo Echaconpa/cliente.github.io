@@ -1,0 +1,99 @@
+/* Reset de estilos para asegurar una base consistente en diferentes navegadores */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+h1{
+    color: #2100dd;
+}
+
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #20f0e9; /* Color celeste de fondo */
+    background-image: linear-gradient(to bottom right, #4ff1df, #e0f2f1); /* Degradado */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Usamos min-height en lugar de height para asegurarnos de que el cuerpo se expanda si el contenido es mayor que la pantalla */
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: red;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Estilos para los campos de texto y textarea */
+input[type="text"],
+textarea {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Aseguramos que el ancho incluya el relleno y el borde */
+}
+
+/* Estilos para los botones */
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #234386;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Estilos para el hover de los botones */
+button:hover {
+    background-color: #234386;
+}
+
+/* Estilos para el cuadro de texto */
+#datosCliente {
+    resize: none;
+    width: 100%; /* Aseguramos que el cuadro de texto ocupe todo el ancho disponible */
+    box-sizing: border-box; /* Aseguramos que el ancho incluya el relleno y el borde */
+}
+.logo {
+    width: auto; /* Tamaño deseado del logo */
+    height: 30px;
+    margin-right: 410px; /* Espacio a la derecha del logo */
+    margin-top: 0px; /* Espacio a la derecha del logo */
+}
